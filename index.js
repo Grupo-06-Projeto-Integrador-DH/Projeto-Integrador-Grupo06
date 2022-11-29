@@ -17,4 +17,12 @@ servidor.get('/', (req, res) => {
     return res.sendFile(__dirname + "/views/index.html");
 });
 
+servidor.get('/login', (req, res)=>{
+    return res.sendFile(__dirname + "/views/login.html");
+});
+
+servidor.get('/endereco', (req, res)=>{
+    return res.sendFile(__dirname + "/views/endereco.html");
+});
+
 servidor.listen(3001);
