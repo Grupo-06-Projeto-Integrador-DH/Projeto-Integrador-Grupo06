@@ -1,0 +1,23 @@
+.tituloEndereco {
+    padding: 16px 32px;
+    background-color: #f5f5f5;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.selecionaEndereco {
+    position: absolute;
+    width: 476px;
+    height: 237px;
+    left: 149px;
+    top: 252px;
+    background: #FFFFFF;
+    border: 1px black solid;
+}
+
+.inputDadosEndereco {
+    box-sizing: border-box;
+    margin: 0 0 29px;
+    border: 1px black solid;
+}
