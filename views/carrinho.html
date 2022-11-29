@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/produto.css">
+    <title>Carrinho</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="/">SixShoes 6S</a>
+            <a href="/produto">Categorias</a>
+            <a href="#">Sobre</a>
+            <a class="link-header" href="/carrinho">Carrinho</a>
+            <a href="#">Login</a>
+        </div>
+    </header>
+    <main class="cart-page">
+        <section class="products-on-cart">
+            <h3 class="cart-title">Seu Carrinho</h3>
+            <p class="cart-subtitle">Não se decidiu? Continue Comprando</p>
+            <article class="product-card">
+                <img id="product-img" src="/img/tenis-img4.jpg" alt="">
+                <div class="product-info">
+                    <h4 class="product-name">Tênis All Star</h4>
+                    <p class="product-sq">Tamanho único</p>
+                    <p class="product-sq">Quantidade: 1</p>
+                    <h4 class="product-price">R$ 300,00</h4>
+                </div>
+                <button class="btn-remove">Remover</button>
+            </article>
+            <hr class="line">
+            <article class="product-card">
+                <img id="product-img" src="/img/tenis-img4.jpg" alt=""> 
+                <div class="product-info">
+                    <h4 class="product-name">Tênis All Star</h4>
+                    <p class="product-sq">Tamanho único</p>
+                    <p class="product-sq">Quantidade: 1</p>
+                    <h4 class="product-price">R$ 300,00</h4>
+                </div>
+                <button class="btn-remove">Remover</button>
+            </article>
+        </section>
+        <section class="order-info">
+            <h4 class="resumo-pedido">Resumo do pedido</h4>
+            <div class="input-container">
+                <input type="text" id="input-discount" placeholder="Código de Desconto">
+            </div>
+            <article class="line-items">
+                <div class="div-resume">
+                    <p id="resume-names" class="subtotal">Subtotal</p>
+                    <p id="resume-names" class="subtotal-price" >R$ 600,00</p>
+                </div>
+                <div class="div-resume">
+                    <p id="resume-names" class="entrega">Entrega</p>
+                    <p id="resume-names" class="delivery-price">R$ 20,00</p>
+                </div>
+                <hr class="line-resume">
+                <div class="div-resume">
+                    <p id="resume-names" class="total">Total</p>
+                    <p id="resume-names" class="total-price" >R$ 620,00</p>
+                </div>
+            </article>
+            <button class="btn-delivery">
+                <p>Opções de Entrega</p>
+            </button>
+        </section>
+    </main>
+</body>
+</html>
