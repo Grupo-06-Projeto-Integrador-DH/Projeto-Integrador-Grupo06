@@ -7,7 +7,7 @@
 }
 footer{
     background-color:#e4e4dd;
-    padding: 50px;
+    padding: 30px;
 }
 .container-footer{
     max-width: 1400px;
@@ -18,13 +18,15 @@ footer{
     display: flex;
     flex-wrap: wrap;
 }
+/* tamanho footer */
 .footer-col{
-    width: 25%;
+    width: 32%;
     padding: 15px;
 }
+/* texto h4 */
 .footer-col h4{
     font-size: 22px;
-    color: black;
+    color: rgb(0, 0, 0);
     margin-bottom: 20px;
     font-size: 500;
     position: relative;
@@ -33,9 +35,11 @@ footer{
 .footer-col ul{
     list-style: none;
 }
+/* espassamento do texto footer */
 .footer-col ul li{
     margin: 15px 0;
 }
+/* footer texto  */
 .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
@@ -50,29 +54,20 @@ footer{
     color:rgb(0, 0, 0);
     padding-left: 10px;
 }
-/* .footer-col .media-sociais{
-    margin-top: 30px;
+
+.media-sociais {
+  list-style-position: outside;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+ }
+footer .medias-sociais {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
 }
-.footer-col .media-sociais a{
-    display: inline-flex;
-    align-items:center ;
-    justify-content: center;
-    height: 40px;
-    width: 40px;
-    margin:0 10px 10px 0 ;
-    text-decoration: none;
-    border-radius: 50%;
-    color: #e4e4dd;
-    border: 1px solid white;
-    transition: all 0.5s ease;
-}
-.footer-col .media-sociais a i{
-    font-size: 20px;
-}
-.footer-col .media-sociais a:hover{
-    color: violet;
-    background-color: white;
-} */
+/* botao */
 .footer-col .form-sub input{
     width: 100%;
     padding: 15px;
@@ -117,15 +112,6 @@ header {
     justify-content: space-between;
     
 }
-a::before{
-    content: "";
-    background-color: rgb(0, 0, 0);
-    width: 10px;
-    height: 10px;
-    margin-right:10px ;
-    
-
-}
 
 a {
     display: inline-flex;
@@ -135,5 +121,17 @@ a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 100px;
+}
+main .banner{
+    background-image: url("public/img/tenis.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #1109a6;
 }
