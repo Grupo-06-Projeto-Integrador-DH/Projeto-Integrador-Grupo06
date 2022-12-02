@@ -1,25 +1,57 @@
-main .acessoPagina {
+*{
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+main {
     display: flex;
+    flex-direction: row;
+    border: 10px black solid;
+    align-items: center;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+main .acessoPagina {
     padding: 65px 0;
     margin-bottom: 40px;
     margin-top: 0;
     align-items: center;
-    background-color: #f4f4f4;
-    display: flex;
+    background-color: #ccc;
 }
 
-.metadeLogin {
-    display: block;
-    width: 60%;
-    height: 100%;
-    border: 5px black solid;
+.conteiner-main{
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f4f4;
+}
+
+.conteiner-Login {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 80px;
+    /*border: 5px black solid;*/
     box-sizing: border-box;
 }
 
 .criarConta {
-    width: 40%;
-    height: 100%;
-    border: 5px black solid;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px 80px;
+    /*border: 5px black solid;*/
     box-sizing: border-box;
 }
 
@@ -35,9 +67,9 @@ main .inputLoginSenha {
     text-align: center;
 }
 
-main .loginFacebook {
-    height: 120px;
-    width: 120px;
+main .buttonLogin {
+    height: 30px;
+    width: 30px;
 }
 
 .buttonAcesso {
