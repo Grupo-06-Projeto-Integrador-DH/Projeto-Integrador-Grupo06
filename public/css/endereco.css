@@ -1,23 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    background-color: #f4f4f4;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-around;
+
+}
+
+
+.conteiner-selecionar{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    margin: 60px 110px;
+    gap: 10px;
+    flex-direction: column;
+    border: 10px black solid;
+}
+
+.conteiner-endereco{
+    width: 100%;
+}
+
+.conteiner-cadastro-novo{
+    width: 100%;
+    border: 10px blue solid;
+}
+
 .tituloEndereco {
-    padding: 16px 32px;
     background-color: #f5f5f5;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
     text-align: left;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
 .selecionaEndereco {
-    position: absolute;
-    width: 476px;
-    height: 237px;
-    left: 149px;
-    top: 252px;
+    display: block;
     background: #FFFFFF;
     border: 1px black solid;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .inputDadosEndereco {
+    display: flex ;
+    flex-direction: column;
     box-sizing: border-box;
-    margin: 0 0 29px;
+    margin: 0 0 35px;
     border: 1px black solid;
+}
+
+.conteiner-carrinho{
+    width: 40%;
+    height: 100%;
+    border: 10px black solid;
 }
