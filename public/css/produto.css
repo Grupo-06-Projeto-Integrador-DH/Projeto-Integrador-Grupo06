@@ -10,7 +10,7 @@ html {
     height: 100%;
 }
 
-body {
+/* body {
     background-color: #ccc;
     font-family: 'Roboto', sans-serif;
     height: 100%;
@@ -43,13 +43,14 @@ header div a:hover {
 
 header .link-header {
     margin-left: auto;
-}
+} */
 
 /* Estilização da página do carrinho */
 
 .cart-page {
     display: flex;
     flex-direction: row;
+    background-color: #ffffff;
 }
 
 main .products-on-cart {
@@ -86,7 +87,7 @@ main .btn-remove {
     border: none;
     cursor: pointer;
     color: #000000;
-    background-color: #ccc;
+    background-color: #ffffff;
 }
 
 main .cart-title {
@@ -178,7 +179,9 @@ main .div-resume {
 
 main .btn-delivery {
     display: flex;
+    align-items: center;
     justify-content: center;
+    text-align: center;
     margin: 12px 0;
     cursor: pointer;
     background-color: #000;
@@ -302,7 +305,7 @@ main .btn-add-cart {
     width: 100%;
 }
 
-main .btn-add-cart p {
+main .btn-add-cart a {
     display: flex;
     align-items: center;
     justify-content: center;
