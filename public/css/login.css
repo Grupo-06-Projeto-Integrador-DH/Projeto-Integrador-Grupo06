@@ -1,26 +1,37 @@
-main .acessoPagina {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    background-color: #f4f4f4;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+main .acessoPagina {
     padding: 65px 0;
     margin-bottom: 40px;
     margin-top: 0;
     align-items: center;
-    background-color: #f4f4f4;
-    display: flex;
-}
-
-.metadeLogin {
-    display: block;
-    width: 60%;
-    height: 100%;
-    border: 5px black solid;
-    box-sizing: border-box;
-}
-
-.criarConta {
-    width: 40%;
-    height: 100%;
-    border: 5px black solid;
-    box-sizing: border-box;
+    background-color: #ccc;
 }
 
 main .tituloPagina {
@@ -31,38 +42,86 @@ main .tituloPagina {
     margin-bottom: 30px;
 }
 
-main .inputLoginSenha {
-    text-align: center;
+
+.conteiner-usuario {
+    display: flex;
+    flex-direction: row;
+    }
+
+.conteiner-login {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: 10px 80px;
+    box-sizing: border-box;
 }
 
-main .loginFacebook {
-    height: 120px;
-    width: 120px;
+.conteiner-social {
+    flex-direction: column;
+}
+
+main .buttonLogin {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+
+.criarConta {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px 80px;
+    box-sizing: border-box;
+}
+
+.buttonInteracao{
+    gap: 50px;
 }
 
 .buttonAcesso {
     color: #f4f4f4;
+    font-size: 17px;
     background: black;
-    border: 1px solid #f4f4f4;
     display: inline-block;
     padding: 7px 15px;
+    border-radius: 3px;
     box-sizing: border-box;
+    font-weight: bold;
     vertical-align: middle;
+    cursor: pointer;
 }
-
+.buttonAcesso:hover {
+    background-color: #202020;
+  }
+  
 .inputDados {
+    flex-direction: column;
     box-sizing: border-box;
-    margin: 0 0 29px;
+    margin: 0 0 10px;
+    justify-content: center;
+    align-items: center;
 }
 
-.textoDados {
-    background-color: #f4f4f4;
-    margin: 0 0 29px;
+.textoDadosId {
+    background-color: #dbd1d1;
+    margin: 15px 0 15px;
+}
+
+.textoDadosSenha {
+    background-color: #dbd1d1;
+    margin: 15px 0 15px;
 }
 
 .temConta {
-    font-weight: 700;
+    font-weight: 700px;
     border-bottom: 1px solid #e8e8e8;
     margin-bottom: 15px;
     padding-bottom: 12px;
+    margin: 0 0 10px;
+}
+
+.info-criar-conta{
+    text-align: justify;
+    margin: 0 0 20px;
 }
