@@ -56,14 +56,19 @@ main .tituloPagina {
     box-sizing: border-box;
 }
 
-.conteiner-social {
-    flex-direction: column;
+.conteiner-social { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    gap: 60px;
 }
 
 main .buttonLogin {
     height: 40px;
     width: 40px;
     cursor: pointer;
+    margin-left: 50px;
 }
 
 
@@ -76,7 +81,10 @@ main .buttonLogin {
 }
 
 .buttonInteracao{
+    display: flex;
     gap: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .buttonAcesso {
@@ -101,15 +109,18 @@ main .buttonLogin {
     margin: 0 0 10px;
     justify-content: center;
     align-items: center;
+    
 }
 
 .textoDadosId {
     background-color: #dbd1d1;
     margin: 15px 0 15px;
+    font-size: 17px;
 }
 
 .textoDadosSenha {
     background-color: #dbd1d1;
+    font-size: 17px;
     margin: 15px 0 15px;
 }
 
@@ -123,5 +134,5 @@ main .buttonLogin {
 
 .info-criar-conta{
     text-align: justify;
-    margin: 0 0 20px;
+    margin: 0 0 28px;
 }

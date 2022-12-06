@@ -39,12 +39,15 @@ main {
 }
 
 .conteiner-endereco{
+    display: flex;
     width: 100%;
 }
 
 .conteiner-cadastro-novo{
+    display: flex;
     width: 100%;
     border: 10px blue solid;
+    flex-direction: columns;
 }
 
 .tituloEndereco {
@@ -71,10 +74,16 @@ main {
 
 .inputDadosEndereco {
     display: flex ;
+    gap: 10px;
     flex-direction: column;
     box-sizing: border-box;
     margin: 0 0 35px;
-    border: 1px black solid;
+    border: 1px red solid;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
 }
 
 .conteiner-carrinho{
@@ -82,3 +91,19 @@ main {
     height: 100%;
     border: 10px black solid;
 }
+
+.buttonAcesso {
+    color: #f4f4f4;
+    font-size: 17px;
+    background: black;
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-weight: bold;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.buttonAcesso:hover {
+    background-color: #202020;
+  }

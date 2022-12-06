@@ -25,4 +25,8 @@ servidor.get('/endereco', (req, res)=>{
     return res.sendFile(__dirname + "/views/endereco.html");
 });
 
+servidor.get('/pagamento', (req, res)=>{
+    return res.sendFile(__dirname + "/views/pagamento.html");
+});
+
 servidor.listen(3001);

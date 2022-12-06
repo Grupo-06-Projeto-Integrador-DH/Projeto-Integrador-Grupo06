@@ -1,0 +1,15 @@
+.buttonAcesso {
+    color: #f4f4f4;
+    font-size: 17px;
+    background: black;
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-weight: bold;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.buttonAcesso:hover {
+    background-color: #202020;
+  }
