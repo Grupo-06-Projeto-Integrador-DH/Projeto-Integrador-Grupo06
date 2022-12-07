@@ -1,3 +1,208 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-around;
+
+}
+
+
+.conteiner-selecionar{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    margin: 60px 110px;
+    gap: 10px;
+    flex-direction: column;
+    align-items:stretch;
+}
+
+.tituloPagina{
+    border-bottom: 1px solid #e8e8e8;
+    text-align: left;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.conteiner-pagamento {
+    text-align: left;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.conteiner-pix{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.texto-pix{
+    margin-bottom: 20px;
+}
+
+.conteiner-cadastro-pagamento {
+    display: flex;
+    width: 100%;
+    flex-direction: columns;
+    background-color: white;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.tituloPagamento {
+    display: flex;
+    width: 100%;
+    flex-direction: columns;
+    background-color: white;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.selecionaEndereco {
+    display: block;
+    background: #FFFFFF;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    gap: 10px;
+}
+
+.itens-pedidos {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    margin: 60px 110px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.resumo-pedido{
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 15px;    
+    padding-bottom: 12px;
+    text-align: left;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#product-img {
+    width: 25%;
+    height: 100%;
+}
+
+.product-info {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.product-name {
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: -0.55px;
+    color: #000000;
+}
+
+.product-sq {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+
+.product-price {
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: -0.55px;
+    color: #000000;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    margin: 0 0 10px;
+}
+
+.line-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    margin: 0 0 10px;
+}
+
+.div-resume{
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    margin: 0 0 10px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 20px;
+}
+
+#input-discount{
+    margin-bottom: 5px;
+    margin: 15px 25px 15px;
+    font-size: 17px;
+    justify-content: center;
+}
 .buttonAcesso {
     color: #f4f4f4;
     font-size: 17px;
@@ -9,7 +214,21 @@
     font-weight: bold;
     vertical-align: middle;
     cursor: pointer;
+    width: 100%;
 }
+
 .buttonAcesso:hover {
     background-color: #202020;
-  }
+}
+
+.textoDados{
+    margin: 15px 25px 15px;
+    font-size: 17px;
+    justify-content: center;
+}
+
+.dados-cartão{
+    justify-content: space-around;
+}
+
+  

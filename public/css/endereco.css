@@ -19,7 +19,7 @@ body {
 
 main {
     background-color: #f4f4f4;
-    display: flex;  
+    display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 20px;
@@ -28,30 +28,35 @@ main {
 }
 
 
-.conteiner-selecionar{
+.conteiner-selecionar {
     display: flex;
     width: 50%;
     height: 100%;
     margin: 60px 110px;
     gap: 10px;
     flex-direction: column;
-    border: 10px black solid;
 }
 
-.conteiner-endereco{
+.conteiner-endereco {
     display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
-.conteiner-cadastro-novo{
+.conteiner-cadastro-novo {
     display: flex;
     width: 100%;
-    border: 10px blue solid;
     flex-direction: columns;
+    background-color: white;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
 }
 
 .tituloEndereco {
-    background-color: #f5f5f5;
     text-align: left;
     display: block;
     font-size: 1.17em;
@@ -65,31 +70,31 @@ main {
 .selecionaEndereco {
     display: block;
     background: #FFFFFF;
-    border: 1px black solid;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    gap: 10px;
 }
 
 .inputDadosEndereco {
-    display: flex ;
+    display: flex;
     gap: 10px;
-    flex-direction: column;
+    flex-direction: column;;
     box-sizing: border-box;
     margin: 0 0 35px;
-    border: 1px red solid;
+    justify-content: center;
 }
 
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-.conteiner-carrinho{
-    width: 40%;
+.conteiner-carrinho {
+    width: 50%;
     height: 100%;
-    border: 10px black solid;
 }
 
 .buttonAcesso {
@@ -103,7 +108,104 @@ main {
     font-weight: bold;
     vertical-align: middle;
     cursor: pointer;
+    width: 100%;
 }
+
 .buttonAcesso:hover {
     background-color: #202020;
-  }
+}
+
+.itens-pedidos {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    margin: 60px 110px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.resumo-pedido{
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 15px;    
+    padding-bottom: 12px;
+    text-align: left;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#product-img {
+    width: 25%;
+    height: 100%;
+}
+
+.product-info {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.product-name {
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: -0.55px;
+    color: #000000;
+}
+
+.textoDados{
+    margin: 15px 25px 15px;
+    font-size: 17px;
+    justify-content: center;
+}
+
+.product-sq {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+
+.product-price {
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: -0.55px;
+    color: #000000;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    margin: 0 0 10px;
+}
+
+.line-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    margin: 0 0 10px;
+}
+
+.div-resume{
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    margin: 0 0 10px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 20px;
+}
+
+#input-discount{
+    margin-bottom: 5px;
+    margin: 15px 25px 15px;
+    font-size: 17px;
+    justify-content: center;
+}
