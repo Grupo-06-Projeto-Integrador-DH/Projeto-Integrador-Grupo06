@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -10,9 +10,9 @@ html {
     height: 100%;
 }
 
-body {
+/* body {
     background-color: #ccc;
-    font-family: 'Fragment Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     height: 100%;
 }
 
@@ -43,13 +43,14 @@ header div a:hover {
 
 header .link-header {
     margin-left: auto;
-}
+} */
 
 /* Estilização da página do carrinho */
 
 .cart-page {
     display: flex;
     flex-direction: row;
+    background-color: #ffffff;
 }
 
 main .products-on-cart {
@@ -86,7 +87,7 @@ main .btn-remove {
     border: none;
     cursor: pointer;
     color: #000000;
-    background-color: #ccc;
+    background-color: #ffffff;
 }
 
 main .cart-title {
@@ -160,7 +161,6 @@ main #input-discount::placeholder {
     align-items: center;
     font-size: 16px;
     line-height: 16px;
-    letter-spacing: -0.3px;
     color: #A9ABBD;
 }
 
@@ -179,33 +179,33 @@ main .div-resume {
 
 main .btn-delivery {
     display: flex;
+    align-items: center;
     justify-content: center;
+    text-align: center;
     margin: 12px 0;
     cursor: pointer;
-    background-color: #0D0D0D;
+    background-color: #000;
     border: 2px solid #ffffff;
     height: 10%;
     width: 100%;
 }
 
-main .btn-delivery p {
+main .btn-delivery a {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 22px;
     letter-spacing: -0.4px;
-    font-weight: bold;
     color: #FFFFFF;
     height: 100%;
     width: 100%;
-
+    text-decoration: none;
 }
 
 .btn-delivery p:hover {
-    color: #000000;
-    background-color: #FFF;
-    border: 2px solid #000000;
+    background-color:#202020;
 }
 
 main .line-resume {
@@ -305,7 +305,7 @@ main .btn-add-cart {
     width: 100%;
 }
 
-main .btn-add-cart p {
+main .btn-add-cart a {
     display: flex;
     align-items: center;
     justify-content: center;
