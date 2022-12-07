@@ -11,6 +11,18 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <a href="/">
+                <img id="logo" src="/img/logo.jpg" alt="logo"/>
+            </a>
+            <a href="">Feminino</a>
+            <a href="">Masculino</a>
+            <a href="">Infantil</a>
+            <a href="/login">Entrar</a>
+            <input type="text" class="search-text" placeholder="Buscar">
+        </nav>
+    </header>
     <main>
         <section class="conteiner-selecionar">
             <div class="conteiner-pagamento">
@@ -19,7 +31,9 @@
                 </h4>
                 <div class="conteiner-pix">
                     <p class="texto-pix">Pagar com Pix</p>
-                    <button class="buttonAcesso">Ver dados para pagamento com pix</button>
+                    <button class="btn-delivery">
+                        <a href="/pagamento">Ver dados para pagamento com pix</a>
+                    </button>
                 </div>
             </div>
             <div class="conteiner-cadastro-pagamento">
@@ -38,7 +52,9 @@
                         <div class="salvar-cartao"> 
                             <p>Salvar dados para compra futura</p> 
                             <input type="checkbox" id="teste">
-                            <button class="buttonAcesso">Pagar com cartão</button>
+                            <button class="btn-delivery">
+                                <a href="/pagamento">Pagar com cartão</a>
+                            </button>
                         </div>
                        
                     </div>
@@ -84,7 +100,52 @@
                     </div>
         </section>
     </main>
+    <footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li> <a href="">Saiba mais</a></li>
+                        <li> <a href="">Nossos servicos</a></li>
+                        <li> <a href="">politica de privacidade</a></li>
+                        <li>
+                        <li> <a href="">reclame</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Obter ajuda</h4>
+                    <ul>
+                        <li> <a href="">FAQ</a></li>
+                        <li> <a href="">transporte</a></li>
+                        <li> <a href="">devoluções</a></li>
+                        <li>
+                        <li> <a href="">Status do pedido</a></li>
+                        <li> <a href="">Opções de pagamento</a></li>
+                    </ul>
 
+                </div>
+                <div class="footer-col">
+                    <h4>Loja online</h4>
+                    <ul>
+                        <li> <a href="">Feminino</a></li>
+                        <li> <a href="">Masculino</a></li>
+                        <li>
+                        <li> <a href="">Infantil</a></li>
+                        <li> <a href="">Endereço</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Registrar</h4>
+                <div class="form-sub">
+                    <forn>
+                        <input type="email" placeholder="Digite o seu e-mail " required>
+                        <button>Registrar</button>
+                    </forn>
+                </div>          
+    </footer>
 </body>
 
 </html>

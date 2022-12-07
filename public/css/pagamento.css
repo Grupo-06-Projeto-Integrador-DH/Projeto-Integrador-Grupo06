@@ -18,7 +18,7 @@ body {
 
 
 main {
-    background-color: #f4f4f4;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,27 +28,23 @@ main {
 }
 
 
-.conteiner-selecionar{
+.conteiner-selecionar {
     display: flex;
     width: 50%;
     height: 100%;
     margin: 60px 110px;
     gap: 10px;
     flex-direction: column;
-    align-items:stretch;
+    align-items: stretch;
 }
 
-.tituloPagina{
-    border-bottom: 1px solid #e8e8e8;
-    text-align: left;
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+.tituloPagina {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -1.5px;
+    color: #000000;
 }
+
 .conteiner-pagamento {
     text-align: left;
     display: block;
@@ -60,7 +56,7 @@ main {
     font-weight: bold;
 }
 
-.conteiner-pix{
+.conteiner-pix {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -71,7 +67,7 @@ main {
     padding-bottom: 20px;
 }
 
-.texto-pix{
+.texto-pix {
     margin-bottom: 20px;
 }
 
@@ -124,18 +120,12 @@ main {
     flex-direction: column;
 }
 
-.resumo-pedido{
+.resumo-pedido {
     border-bottom: 1px solid #e8e8e8;
-    margin-bottom: 15px;    
-    padding-bottom: 12px;
-    text-align: left;
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.55px;
+    color: #000000;
 }
 
 #product-img {
@@ -173,7 +163,7 @@ main {
     margin: 0 0 10px;
 }
 
-.line-items{
+.line-items {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -184,9 +174,9 @@ main {
 }
 
 .div-resume{
-    margin-bottom: 15px;
-    padding-bottom: 12px;
-    margin: 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .product-card {
@@ -197,38 +187,50 @@ main {
     margin-bottom: 20px;
 }
 
-#input-discount{
+#input-discount {
     margin-bottom: 5px;
     margin: 15px 25px 15px;
     font-size: 17px;
     justify-content: center;
 }
-.buttonAcesso {
-    color: #f4f4f4;
-    font-size: 17px;
-    background: black;
-    display: inline-block;
-    padding: 7px 15px;
-    border-radius: 3px;
-    box-sizing: border-box;
-    font-weight: bold;
-    vertical-align: middle;
+
+main .btn-delivery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 12px 0;
     cursor: pointer;
+    background-color: #000;
+    border: 2px solid #ffffff;
+    height: 10%;
     width: 100%;
 }
 
-.buttonAcesso:hover {
+main .btn-delivery a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.btn-delivery p:hover {
     background-color: #202020;
 }
 
-.textoDados{
+.textoDados {
     margin: 15px 25px 15px;
     font-size: 17px;
     justify-content: center;
 }
 
-.dados-cartão{
+.dados-cartão {
     justify-content: space-around;
 }
-
-  
