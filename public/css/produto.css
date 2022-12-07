@@ -294,6 +294,12 @@ main .description-product {
     color: #000000;
 }
 
+main #input-quantity {
+    display: flex;
+    height: 5%;
+    width: 50%;
+}
+
 main .btn-add-cart {
     display: flex;
     justify-content: center;
